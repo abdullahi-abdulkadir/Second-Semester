@@ -42,8 +42,19 @@ export const deleteTodo = async (id) => {
 
 
 
-  const res = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
-  if (!res.ok) throw new Error('Failed to fetch todos')
+  // const res = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10')
+  // if (!res.ok) throw new Error('Failed to fetch todos')
+
+async function fetchTo() {
+  const res = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=10');
+  if (!res.ok) throw new Error('Failed to fetch todos');
+  const todos = await res.json();
+  // do something with todos
+}
+
+fetchTo();
+
+
 
 
 export const fetchTodoById = async (id) => {
