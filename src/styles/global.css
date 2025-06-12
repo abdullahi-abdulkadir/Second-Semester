@@ -1,0 +1,19 @@
+/* src/global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+
+/* Optional: smoother button transitions */
+button {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
