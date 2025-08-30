@@ -155,7 +155,7 @@ This project will be soon licensed under the MIT License.
 👤 Author
 Abdullahi Abdulkadir
 📧 graphgeo02@gmail.com
-🔗 [LinkedIn ](https://www.linkedin.com/in/abdullahi-abdulkadir-mohammed?trk=contact-info)
+🔗 [LinkedIn ](https://www.linkedin.com/in/abdullahi-abdulkadir-mohammed)
 
 
 
